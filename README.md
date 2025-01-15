@@ -101,7 +101,7 @@ vidcat.sh /path/to/lecture/videos output/
 
 ## What video player can I use on my mobile?
 
-There's many good video players, but personally I use VLC. It's available on Android and iOS, it's free, open source, well supported, and full featured.
+There's many good video players, but personally I use [VLC](https://www.videolan.org/). It's available on [Android](https://www.videolan.org/vlc/download-android.html) and [iOS](https://www.videolan.org/vlc/download-ios.html), it's free, open source, well supported, and full featured.
 
 In particular:
 - Create folders for your various videos (for example, one for each class)
