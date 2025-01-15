@@ -2,7 +2,7 @@
 
 VidCat is a Bash script designed to streamline the process of concatenating multiple small video files into a single longer video, using `ffmpeg`.
 
-I created this to address my desire to watch [OMSCS lectures](https://omscs.gatech.edu/) on the go. I found distracting to watch dozens of 2-3min short episodes, on top of the issues that the proprietary mobile apps have in remembering basic preferences like watch speed, or the position you were when you last watched. Also, I wanted to be able to watch on my commute, and I frequently don't have connectivity (looking at you, NYC MTA).
+I created this to address my need to watch [OMSCS lectures](https://omscs.gatech.edu/) on the go. I found distracting to dabble with dozens of 2-3min short segments, on top of the issues that proprietary mobile players have in remembering basic preferences like play speed or your last position. Also, I wanted to be able to watch on my commute, and I frequently don't have connectivity, so I needed a truly offline option (looking at you, NYC MTA).
 
 VidCat supports features like:
 - Automatic concatenation of dozens/hundreds of videos into chapter-long videos that you can more conveniently watch
