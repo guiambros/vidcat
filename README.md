@@ -30,7 +30,7 @@ VidCat was tested on Ubuntu 22.04, but should work in any modern Linux distro wi
 ```
 VidCat will create two files: `1. introduction.mp4`, and `2. advanced topics.mp4`.
 
-> ***Note for OMSCS fellow students***: I've successfuly used this with the downloadable lectures for CS-7646 (ML4T) and CS-6200 (GIOS), but YMMV.
+> ***Note for fellow OMSCS students***: I've successfuly used this with the downloadable lectures for CS-7646 (ML4T) and CS-6200 (GIOS), but YMMV.
 > 
 > GIOS lectures are neatly organized in subfolders for each chapter with descriptive names (P1L1, P1L2, P2L4, etc), so it works out of the box. ML4T lectures are all in a single folder (with some random subfolders sprinkled through it), so you'll need to move files around and possibly create subdirectories for each chapter if you'd prefer. Other classes may require similar tweaking.
  
