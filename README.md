@@ -116,7 +116,7 @@ In particular:
 
 Here's how it looks like for my current class (CS 6200).
 
-![VLC on Android](images/screenshot-vlc.png)
+![[VLC on Android]](images/screenshot-vlc.png | width=200px)
 
 
 ## Troubleshooting and Known limitations
