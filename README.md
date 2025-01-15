@@ -59,7 +59,7 @@ You should see something like this while processing your videos:
 
 Depending on the size of your original videos, this may take quite a bit to finish. For example, OMSCS GIOS / CS-6200 has 6GB across 576 individual video snippets; it took 35 minutes to reencode videos using GPU acceleration, or 71 minutes on CPU.
 
-### Output
+## Output
 - A video will be created for each chapter (e.g. `chapter 1.mp4`, `chapter 2.mp4`).
 - The resulting videos will be reencoded, so resolution, frame rate, bitrate, and cover pages will be added for each episode.
 - - A *chapter* is defined as a subdirectory inside `<input directory>`. The script does some minimal sanitization of filenames (e.g. underscores are converted to spaces, and double underscores are replaced by " - "). Spaces characters and spaces are allowed.
@@ -98,6 +98,26 @@ chmod +x vidcat.sh
 mkdir output
 vidcat.sh /path/to/lecture/videos output/
 ```
+
+## What video player can I use on my mobile?
+
+There's many good video players, but personally I use VLC. It's available on Android and iOS, it's free, open source, well supported, and full featured.
+
+In particular:
+- Create folders for your various videos (for example, one for each class)
+- Chromecast support (useful when traveling, and you want to cast to the TV in your hotel)
+- Remembers the last position for each video played
+- Remembers previous speed
+- Allows volume to go over 100% (ideal when the original audio is low, or on noise environments, like subways)
+- Double tap to seek forward and backward
+- Easy to pause/play videos
+- Two finger zoom
+- Various gestures - brightness, take screenshots, etc.
+
+Here's how it looks like for my current class (CS 6200).
+
+![VLC on Android](images/screenshot-vlc.png)
+
 
 ## Troubleshooting and Known limitations
 1. **This takes too long to run!**:
