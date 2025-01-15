@@ -116,7 +116,7 @@ In particular:
 
 Here's how it looks like for my current class (CS 6200).
 
-![[images/screenshot-vlc.png | width=200px]]
+<img src="images/screenshot-vlc.png" width="300" />
 
 
 ## Troubleshooting and Known limitations
