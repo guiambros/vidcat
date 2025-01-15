@@ -33,7 +33,7 @@ VidCat will create two files: `1. introduction.mp4`, and `2. advanced topics.mp4
  
 In between each video segment VidCat will add a cover page with the chapter and segment title. For example: 
 
-![cover page](images/screenshot-coverpage.png | width=200)
+![cover page](images/screenshot-coverpage.png)
 
 All fonts, font sizes and colors are easily customizable; see script for details.
 
@@ -51,7 +51,7 @@ Run VidCat with the following command:
 
 You should see something like this while processing your videos:
 
-![processing](images/screenshot-processing.png | width=200)
+![processing](images/screenshot-processing.png)
 
 Depending on the size of your original videos, this may take quite a bit to finish (e.g. OMSCS GIOS / CS-6200 has 6GB across 576 individual video files; it took 71 minutes to finish using CPU, and 35 minutes using GPU acceleration).
 
