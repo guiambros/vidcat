@@ -114,7 +114,7 @@ In particular:
 - Two finger zoom
 - Various gestures - brightness, take screenshots, etc.
 
-Here's how it looks like for my current class (CS 6200).
+Here's how it looks like for my current class (CS 6200 - GIOS), with the 7 modules:
 
 <img src="images/screenshot-vlc.png" width="300" />
 
