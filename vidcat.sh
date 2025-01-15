@@ -2,7 +2,7 @@
 
 # -- encoding parameters
 FRAMERATE=30000/1001     # 29.97 fps. Should match the input videos being concatenated
-NVIDIA_GPU=1             # enable nvidia GPU support. Test w/ ffmpeg -i in.mp4 -c:v h264_nvenc -preset fast -b:v 5M out.mp4
+NVIDIA_GPU=0             # enable nvidia GPU support. Test w/ ffmpeg -i in.mp4 -c:v h264_nvenc -preset fast -b:v 5M out.mp4
 VIDEO_FORMAT="mp4"       # default video format. This was only tested with mp4, so proceed with caution
 
 # -- cover page
@@ -26,7 +26,7 @@ ASPECT_RATIO="1280:720"
 BITRATE="500k"
 
 # -- in-memory virtual disk (note: requires sudo and available RAM)
-USE_VIRTUAL_DISK=1       # create a virtual disk in memory. Faster, but requires enough RAM to hold all the files. Default off.
+USE_VIRTUAL_DISK=0       # create a virtual disk in memory. Faster, but requires enough RAM to hold all the files. Default off.
 VIRTUAL_DISK_SIZE=6      # virtual disk size, in GB. Must be big enough to hold an entire chapter videos. Default: 2GB
 
 # -- debug parameters
